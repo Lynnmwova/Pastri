@@ -10,6 +10,9 @@ body{
     
 }
 
+nav{
+    background-color: #A67B5B;
+}
 .navbar-brand{
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 80x;
