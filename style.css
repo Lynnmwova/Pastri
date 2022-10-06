@@ -9,6 +9,12 @@ body{
     overflow: hidden;
     
 }
+
+.navbar-brand{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 80x;
+    font-weight: bold;
+}
 #header-nav{
     border: 0;
     border-radius: 0;
@@ -16,4 +22,8 @@ body{
 
 .navbar-brand{
     padding-top: 25px;
+}
+
+a{
+    font-size: 40px;
 }
