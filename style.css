@@ -3,9 +3,11 @@ body{
     font-size: 16px;
     background-color: brown;
     background-image: url("pexels-lucie-liz-3256807.jpg");
-    background-repeat: no-repeat;
+    min-height: 100%;
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
     
 }
@@ -14,18 +16,20 @@ nav{
     background-color: #A67B5B;
 }
 .navbar-brand{
+    padding-top: 25px;
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 80x;
     font-weight: bold;
 }
-#header-nav{
-    border: 0;
-    border-radius: 0;
-}
 
-.navbar-brand{
-    padding-top: 25px;
-}
+ 
+    
+
+
+
+
+
+
 
 a{
     font-size: 40px;
