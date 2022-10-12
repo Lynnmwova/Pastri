@@ -19,13 +19,13 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Recipes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled"> Menu</a>
+                <a class="nav-link" href ="#"> Menu</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -51,7 +51,7 @@
           <div class="carousel-caption text-start">
             <h1>Avocado Toast</h1>
             <p>An energy filled and tasty breakfast option. Can take in a variety of protein toppings too!</p>
-            <p><a class="btn btn-lg btn-primary" href="#"" >Learn More </a> </p>
+            <p><a class="btn btn-lg btn-primary" href="#" >Learn More </a> </p>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           <div class="carousel-caption">
             <h1> Cheese Croissants</h1>
             <p> Classic French Cheese Croissants are a savory version of the famous French pastry which comes in many forms including filled with almond and make an essential part of a French breakfast.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">أعرف أكثر</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn More</a></p>
           </div>
         </div>
       </div>
@@ -90,19 +90,19 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="whisk.png" class="icon">
         <h2 class="fw-normal">عنوان</h2>
         <p>تذكر دائماً أن الحاسوب لا يمتلك ذكاءً، ولكنه يكتسب الذكاء الاصطناعي من خلال ثلاثة عناصر وظيفية رئيسة، هي: القدرة على التحليل، والقدرة على التأليف، والاستدلال المنطقي.</p>
         <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="menu.png" class="icon"> 
         <h2 class="fw-normal">عنوان آخر</h2>
         <p>إذا أردنا استخدام الحاسوب الذكي في معالجة اللغة العربية فإننا نجد أنفسنا أمام تحدٍّ كبير، خاصة وأن لغتنا تمتاز بتماسك منظوماتها وتداخلها، ومع ذلك فإن الذكاء الاصطناعي يمكّننا من الحصول على أربعة أنواع من المعالجة، هي: المعالجة الصوتية، والمعالجة الصرفية، والمعالجة النحوية، والمعالجة الدلالية.</p>
         <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="Pin.png" class="icon">
         <h2 class="fw-normal">عنوان ثالث لتأكيد المعلومة</h2>
         <p>بفضل بحوث الذكاء الاصطناعي وتقنياته استطعنا الانتقال من مرحلة التعامل مع الفيزيائي إلى مرحلة التعامل مع المنطقي، وقد انعكس هذا الانتقال بصورة إيجابية على الكيفية التي تتعامل بها الشعوب مع لغاتها الحيَّة، وهذا يعني أنه يجب أن ينعكس بصورة إيجابية على كيفية تعاملنا مع لغتنا العربية.</p>
         <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
@@ -154,42 +154,9 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">عد إلى الأعلى</a></p>
-    <p>&copy; 2017–{{< year >}} Company, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط الاستخدام</a></p>
+    <p>&copy; 2022 Pauline&Pastries, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط الاستخدام</a></p>
   </footer>
     </main>
-    <!-- Navigation bar starts here
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand pull-right" href="#" > 
-      <img src="icon.png" width="50" height="50"  class="d-inline-block align-top"  alt="Cupcake"
-        <h1>Pauline&Pastries</h1></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"> Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Recipes</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Learn More
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a> 
-            </div>
-          </li>
-        </ul>
-      </div>
-      </nav> 
-   Navigation bar ends here-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

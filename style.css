@@ -53,6 +53,11 @@ nav{
 .carousel-item {
     height: 32rem;
   }
+
+  .icon{
+    width: 64px;
+    height:64px;
+  }
   
   
  
