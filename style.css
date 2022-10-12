@@ -59,6 +59,10 @@ nav{
     height:64px;
   }
   
+  .bd-placeholder-img-lg featurette-image img-fluid mx-auto{
+    height: 500px;
+    width: 500px;
+  }
   
  
   
@@ -85,7 +89,7 @@ nav{
     letter-spacing: -.05rem;
   }
   
-  
+ 
   
   @media (min-width: 40em) {
     /* Bump up size of carousel content */
