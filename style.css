@@ -37,8 +37,8 @@ nav{
   }
   
   .image1{
-    width:3599px;
-    height: 2333px;;
+    width:100%;
+    height:auto;
     background:#fff;
     color:#777;
     background-repeat: no-repeat;
@@ -46,6 +46,8 @@ nav{
     background-position: center;
         
   }
+
+  
 
  
 .carousel-item {
