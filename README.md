@@ -15,8 +15,8 @@ _The website has the following sections:_
 ## Languages and technologies used. 
 * [x] HTML
 * [x] CSS
-* [] Javascript 
-* [] 
+* [x] Bootstrap 
+
 
 
 
